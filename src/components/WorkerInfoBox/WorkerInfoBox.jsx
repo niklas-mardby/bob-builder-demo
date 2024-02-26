@@ -1,5 +1,7 @@
-const WorkerInfoBox = () => {
-	return <section>Worker!</section>;
+import "./WorkerInfoBox.css";
+
+const WorkerInfoBox = ({ oneWorker }) => {
+	return <section>{oneWorker.firstname}</section>;
 };
 
 export default WorkerInfoBox;
