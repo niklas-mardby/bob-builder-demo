@@ -4,6 +4,8 @@ const OrderedList = ({ animals }) => {
 		map loopar igenom hela arrayen animals
 		och på varje varv i loopen körs funktionen
 		animal är då det element vi är på i arrayen i loopen
+
+		Denna komponenten är dynamisk! Varför då?
 	*/
 
 	return (
@@ -11,7 +13,7 @@ const OrderedList = ({ animals }) => {
 			<h2>Animals from animals.json</h2>
 			<ol>
 				{animals.map((animal) => {
-					return <li>{animal}</li>;
+					return <li key={animal}>{animal}</li>;
 				})}
 			</ol>
 		</>

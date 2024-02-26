@@ -3,6 +3,8 @@ const DropDown = () => {
         Alla events skickar ett object som jag nedan kallar e
         Detta objekt e innehåller en massa data om eventet
         Titta i konsollen på hur e ser ut!
+
+		Denna komponenten är statisk! Varför då?
      */
 	const handleChange = (e) => {
 		console.log(e);

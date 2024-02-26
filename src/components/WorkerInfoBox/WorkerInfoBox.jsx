@@ -1,7 +1,7 @@
 import "./WorkerInfoBox.css";
 
 const WorkerInfoBox = ({ oneWorker }) => {
-	return <section>{oneWorker.firstname}</section>;
+	return <section className="workerInfoBox">{oneWorker.lastname}</section>;
 };
 
 export default WorkerInfoBox;
